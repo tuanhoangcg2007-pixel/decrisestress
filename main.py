@@ -73,6 +73,6 @@ if model:
 
             # 2. Cảnh báo dựa trên chỉ số thể chất (đứng độc lập)
             if w5 <= 2:
-                st.warning("⚠️ CẢNH BÁO: Thể chất yếu (<=2) khiến nguy cơ Stress cao tăng mạnh!")
+                st.warning("⚠️ CẢNH BÁO: Thể chất của bạn quá yếu khiến nguy cơ Stress cao tăng mạnh! Hãy tập thể thao nhiều hơn!")
 else:
     st.info("Đang chờ file dữ liệu...")
