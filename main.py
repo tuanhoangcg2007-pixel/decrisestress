@@ -69,10 +69,10 @@ if model:
             
             # 1. Cảnh báo khi dự đoán là Stress cao
             if res == 2:
-                st.warning("⚠️ CẢNH BÁO: Bạn đang ở mức stress cao. Hãy nghỉ ngơi thư giãn và điều chỉnh lịch trình ngay!")
+                st.warning("⚠️ CẢNH BÁO: Bạn đang ở mức stress cao. Hãy nghỉ ngơi thư giãn 🧘 và điều chỉnh lịch trình ngay!")
 
             # 2. Cảnh báo dựa trên chỉ số thể chất (đứng độc lập)
             if w5 <= 2:
-                st.warning("⚠️ CẢNH BÁO: Thể chất của bạn quá yếu khiến nguy cơ Stress cao tăng mạnh! Hãy tập thể thao nhiều hơn!")
+                st.warning("⚠️ CẢNH BÁO: Thể chất của bạn quá yếu khiến nguy cơ Stress cao tăng mạnh! Hãy chú ý tập thể thao 🏋️🚵🚣🏊‍♀️🧗⛹️‍♂️... NGAYYYY!!!")
 else:
     st.info("Đang chờ file dữ liệu...")
