@@ -32,7 +32,7 @@ def train_model():
 
         x_train_std = sc.fit_transform(x_train)
 
-        model = Perceptron(max_iter=5000, eta0=0.1, random_state=42, class_weight='balanced')
+        model = Perceptron(max_iter=8000, eta0=0.05, random_state=42, class_weight='balanced')
 
         model.fit(x_train_std, y_train)
 
